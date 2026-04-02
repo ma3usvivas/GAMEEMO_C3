@@ -4,11 +4,17 @@
 
 - O conjunto de dados mostra dados ao longo do tempo do EEG (eletroencefalograma) de 28 indivíduos (subjects), medindo o sinal elétrico da posição de eletrodos em pacientes. As regiões são marcadas como:
     F - Frontal 
+
     AF - Anterior Frontal
+
     FC - Fronto Central
+
     C - Central
+
     T - Temporal
+
     P - Pariental
+
     O - Occipital
 
 E a numeração relacionada a posição do eletrodo na cabeça
