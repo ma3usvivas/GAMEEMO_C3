@@ -1,4 +1,4 @@
-#Sobre o projeto
+# Sobre o projeto
 
 - O objetivo do projeto é realizar a análise de sentimento de indivíduos enquanto eles assistiam vídeos de uma pessoa jogando (gameplay)
 
@@ -23,20 +23,20 @@ Fontes: https://www.acns.org/UserFiles/file/Guideline2-GuidelinesforStandardElec
 
 - Com essas informações, foi pedido para criar um modelo para classificar os sentimentos dos indivíduos de acordo com cada vídeo assistido.
 
-#Plano de Ação
+# Plano de Ação
 Plano de Ação para o projeto com o Database GAMEEMO
 
 - Serão definidas tarefas e prazos que serão realizadas para definir o projeto.
 
-##Limpeza dos Dados 04/04
+## Limpeza dos Dados 04/04
 
 - Primeiramente será feita a limpeza dos dados com a extração de ruído, remoção de outliers e normalização. Os dados "limpos" serão salvos em outra tabela com a finalidade de distinguir os dados e avaliar a diferença do resultado da métrica no modelo no experimento de ablação.
 
-##Analise Exploratória de Dados - 05/04
+## Analise Exploratória de Dados - 05/04
 
 - Em seguida será realizado o processo de análise exploratória de dados com o objetivo de extrair features principais relacionadas ao modelo.
 
-##Criação de Modelo Inicial - 05/04
+## Criação de Modelo Inicial - 05/04
 
 - Será criado um modelo inicial sem uma grande modificação dos recursos (features) com a finalidade de criar uma métrica como parâmetro. Nessa etapa, será feita uma das partes do expererimento de ablação 
 
@@ -44,18 +44,18 @@ Plano de Ação para o projeto com o Database GAMEEMO
 
 - Nessa etapa será realizada a criação do modelo final, o qual os recursos (features) serão extraídos, a arquitetura final do modelo será definida e comparada com a arquitetura do modelo inicial, mais simples.
 
-##Experimento de Ablação 10/04
+## Experimento de Ablação 10/04
 
 - Nessa etapa, o modelo final será comparado com o modelo inicial, e serão avaliados quais são as características mais importantes do modelo.
 
-##Criação da Plataforma de Inferência 12/04
+## Criação da Plataforma de Inferência 12/04
 
 - Será criado uma platafoma de inferência, o qual ela receberá os dados de um indivíduo e tentará prever o seu sentimento em relação ao jogo. É importante que nessa etapa, o modelo consiga receber dados de um indivíduo e retorná-los sem atraso e de forma escalável.
 
-##Avaliação LOO K-Fold 12/04
+## Avaliação LOO K-Fold 12/04
 
 - Nessa etapa, será feita a avaliação de LOO K-Fold para obter uma melhor estimativa do resultado da métrica. LOO K-Fold reduz a variância da avaliação e dá uma estimativa mais estável da performance real do modelo.
 
-##Apresentação do Projeto 14/04
+## Apresentação do Projeto 14/04
 
 - Por fim, será realizada a apresentação do projeto apresentando o funcionamento do projeto e justificando todas as decisões tomadas para chegar no resultado final do projeto. 
