@@ -3,6 +3,7 @@
 - O objetivo do projeto é realizar a análise de sentimento de indivíduos enquanto eles assistiam vídeos de uma pessoa jogando (gameplay)
 
 - O conjunto de dados mostra dados ao longo do tempo do EEG (eletroencefalograma) de 28 indivíduos (subjects), medindo o sinal elétrico da posição de eletrodos em pacientes. As regiões são marcadas como:
+   
     F - Frontal 
 
     AF - Anterior Frontal
