@@ -20,7 +20,7 @@
 
 E a numeração relacionada a posição do eletrodo na cabeça.
 
-Fontes: https://www.acns.org/UserFiles/file/Guideline2-GuidelinesforStandardElectrodePositionNomenclature_v1.pdf
+Fontes: https://www.bem.fi/book/13/13.htm#03
 
 
 - Além disso, os pacientes preencheram um formulário contendo o gênero (M ou F); a idade; perguntas como por exemplo se a pessoa possui problemas neurológicos e se ela já tinha jogado ou visto o jogo; o sentimento relacionado a cada um dos vídeos que foi assistido. Foi também feita uma avaliação sobre o quão feliz e o quão agitada a pessoa ficou vendo o vídeo.
