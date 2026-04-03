@@ -18,7 +18,8 @@
 
     O - Occipital
 
-E a numeração relacionada a posição do eletrodo na cabeça
+E a numeração relacionada a posição do eletrodo na cabeça.
+
 Fontes: https://www.acns.org/UserFiles/file/Guideline2-GuidelinesforStandardElectrodePositionNomenclature_v1.pdf
 
 
