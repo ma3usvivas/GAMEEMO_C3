@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-- O objetivo do projeto é realizar a análise de sentimento de indivíduos enquanto eles assistiam vídeos de uma pessoa jogando (gameplay)
+- O objetivo do projeto é realizar a análise de sentimento de indivíduos enquanto eles jogavam o jogo por *5 minutos*
 
 - O conjunto de dados mostra dados ao longo do tempo do EEG (eletroencefalograma) de 28 indivíduos (subjects), medindo o sinal elétrico da posição de eletrodos em pacientes. As regiões são marcadas como:
    
@@ -23,13 +23,13 @@ E a numeração relacionada a posição do eletrodo na cabeça.
 Fontes: https://www.bem.fi/book/13/13.htm#03
 
 
-- Além disso, os pacientes preencheram um formulário contendo o gênero (M ou F); a idade; perguntas como por exemplo se a pessoa possui problemas neurológicos e se ela já tinha jogado ou visto o jogo; o sentimento relacionado a cada um dos vídeos que foi assistido. Foi também feita uma avaliação sobre o quão feliz e o quão agitada a pessoa ficou vendo o vídeo.
+- Além disso, os pacientes preencheram um formulário contendo o gênero (M ou F); a idade; perguntas como por exemplo se a pessoa possui problemas neurológicos e se ela já tinha jogado ou visto o jogo; o sentimento relacionado a cada um dos jogos jogados. Foi também feita uma avaliação sobre o quão feliz (valence) e o quão agitada (arousal), denominada SAM rating, enquanto a pessoa ficou jogando.
 
-- O sinal foi medido nos indivíduos enquanto assistiam vídeos de uma pessoa jogando (gameplay) 4 jogos distintos. Cada jogo, enumerado de 1 a 4, foi descrito pelo próprio conjunto de dados como: chato, calmo, horripilante e engraçado; respectivamente.
+- O sinal foi medido nos indivíduos enquanto jogavam 4 jogos distintos. Cada jogo, enumerado de 1 a 4, foi descrito pelo próprio conjunto de dados como: chato, calmo, horripilante e engraçado; respectivamente.
 
 - Esses sinais e o formulário estão divididos em pastas com cada indivíduo tendo uma numeração XX (SXX), o qual dentro de cada pasta de individuo contem 3 pastas: dados pré-processados, dados crus (raw data) e as respostas dos formulários. Cada pasta de dados contém os dados do EEG dos indivíduos para cada gameplay assistida. Na pasta de formulários, estão os formulários descritos de cada jogo.
 
-- Com essas informações, foi pedido para criar um modelo para classificar os sentimentos dos indivíduos de acordo com cada vídeo assistido.
+- Com essas informações, foi pedido para criar um modelo para classificar os sentimentos e o SAM dos indivíduos de acordo com cada vídeo assistido.
 
 # Plano de Ação
 Plano de Ação para o projeto com o Database GAMEEMO
@@ -42,11 +42,11 @@ Plano de Ação para o projeto com o Database GAMEEMO
 
 ## Analise Exploratória de Dados - 05/04
 
-- Em seguida será realizado o processo de análise exploratória de dados com o objetivo de extrair features principais relacionadas ao modelo.
+- Em seguida será realizado o processo de análise exploratória de dados com o objetivo de entender e extrair features principais relacionadas ao modelo.
 
-## Criação de Modelo Inicial - 05/04
+## Seleção de Modelo Inicial - 05/04
 
-- Será criado um modelo inicial sem uma grande modificação dos recursos (features) com a finalidade de criar uma métrica como parâmetro. Nessa etapa, será feita uma das partes do expererimento de ablação 
+- Será selecionado um modelo inicial sem uma grande modificação dos recursos (features) com a finalidade de criar uma métrica como parâmetro. Nessa etapa, será feita uma das partes do expererimento de ablação 
 
 ## Criação de Modelo Final 09/04
 
