@@ -1,0 +1,1113 @@
+{
+  "S01": {
+    "gender": 1,
+    "Age": 24,
+    "G1": {
+      "satisfied": 2,
+      "boring": 8,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 2,
+      "valence": 2,
+      "arousal": 3
+    },
+    "G2": {
+      "satisfied": 7,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 8,
+      "valence": 5,
+      "arousal": 4
+    },
+    "G3": {
+      "satisfied": 2,
+      "boring": 2,
+      "horrible": 8,
+      "calm": 1,
+      "funny": 1,
+      "valence": 2,
+      "arousal": 9
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 9,
+      "valence": 5,
+      "arousal": 8
+    }
+  },
+  "S02": {
+    "gender": 0,
+    "Age": 23,
+    "G1": {
+      "satisfied": 1,
+      "boring": 8,
+      "horrible": 1,
+      "calm": 4,
+      "funny": 2,
+      "valence": 1,
+      "arousal": 1
+    },
+    "G2": {
+      "satisfied": 5,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 6,
+      "valence": 5,
+      "arousal": 5
+    },
+    "G3": {
+      "satisfied": 2,
+      "boring": 2,
+      "horrible": 8,
+      "calm": 3,
+      "funny": 2,
+      "valence": 1,
+      "arousal": 9
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 2,
+      "horrible": 2,
+      "calm": 7,
+      "funny": 9,
+      "valence": 7,
+      "arousal": 5
+    }
+  },
+  "S03": {
+    "gender": 0,
+    "Age": 25,
+    "G1": {
+      "satisfied": 2,
+      "boring": 7,
+      "horrible": 2,
+      "calm": 6,
+      "funny": 1,
+      "valence": 1,
+      "arousal": 2
+    },
+    "G2": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 8,
+      "valence": 7,
+      "arousal": 5
+    },
+    "G3": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 10,
+      "calm": 1,
+      "funny": 1,
+      "valence": 2,
+      "arousal": 9
+    },
+    "G4": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 9,
+      "valence": 9,
+      "arousal": 6
+    }
+  },
+  "S04": {
+    "gender": 0,
+    "Age": 20,
+    "G1": {
+      "satisfied": 4,
+      "boring": 8,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 1,
+      "valence": 2,
+      "arousal": 4
+    },
+    "G2": {
+      "satisfied": 7,
+      "boring": 3,
+      "horrible": 1,
+      "calm": 9,
+      "funny": 6,
+      "valence": 8,
+      "arousal": 7
+    },
+    "G3": {
+      "satisfied": 7,
+      "boring": 1,
+      "horrible": 9,
+      "calm": 2,
+      "funny": 1,
+      "valence": 3,
+      "arousal": 9
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 9,
+      "valence": 6,
+      "arousal": 7
+    }
+  },
+  "S05": {
+    "gender": 1,
+    "Age": 25,
+    "G1": {
+      "satisfied": 3,
+      "boring": 7,
+      "horrible": 1,
+      "calm": 2,
+      "funny": 1,
+      "valence": 3,
+      "arousal": 3
+    },
+    "G2": {
+      "satisfied": 8,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 5,
+      "funny": 7,
+      "valence": 9,
+      "arousal": 9
+    },
+    "G3": {
+      "satisfied": 4,
+      "boring": 1,
+      "horrible": 8,
+      "calm": 1,
+      "funny": 2,
+      "valence": 1,
+      "arousal": 9
+    },
+    "G4": {
+      "satisfied": 7,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 8,
+      "valence": 9,
+      "arousal": 7
+    }
+  },
+  "S06": {
+    "gender": 1,
+    "Age": 21,
+    "G1": {
+      "satisfied": 3,
+      "boring": 7,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 1,
+      "valence": 2,
+      "arousal": 3
+    },
+    "G2": {
+      "satisfied": 7,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 3,
+      "valence": 7,
+      "arousal": 9
+    },
+    "G3": {
+      "satisfied": 1,
+      "boring": 1,
+      "horrible": 8,
+      "calm": 1,
+      "funny": 1,
+      "valence": 4,
+      "arousal": 5
+    },
+    "G4": {
+      "satisfied": 7,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 8,
+      "valence": 7,
+      "arousal": 7
+    }
+  },
+  "S07": {
+    "gender": 0,
+    "Age": 22,
+    "G1": {
+      "satisfied": 5,
+      "boring": 8,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 3,
+      "valence": 3,
+      "arousal": 1
+    },
+    "G2": {
+      "satisfied": 6,
+      "boring": 3,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 6,
+      "valence": 7,
+      "arousal": 6
+    },
+    "G3": {
+      "satisfied": 6,
+      "boring": 1,
+      "horrible": 10,
+      "calm": 1,
+      "funny": 1,
+      "valence": 5,
+      "arousal": 7
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 1,
+      "funny": 10,
+      "valence": 9,
+      "arousal": 9
+    }
+  },
+  "S08": {
+    "gender": 0,
+    "Age": 26,
+    "G1": {
+      "satisfied": 2,
+      "boring": 10,
+      "horrible": 1,
+      "calm": 1,
+      "funny": 1,
+      "valence": 2,
+      "arousal": 1
+    },
+    "G2": {
+      "satisfied": 8,
+      "boring": 3,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 8,
+      "valence": 9,
+      "arousal": 7
+    },
+    "G3": {
+      "satisfied": 10,
+      "boring": 1,
+      "horrible": 5,
+      "calm": 7,
+      "funny": 1,
+      "valence": 1,
+      "arousal": 1
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 6,
+      "funny": 6,
+      "valence": 5,
+      "arousal": 6
+    }
+  },
+  "S09": {
+    "gender": 0,
+    "Age": 23,
+    "G1": {
+      "satisfied": 2,
+      "boring": 10,
+      "horrible": 1,
+      "calm": 4,
+      "funny": 4,
+      "valence": 5,
+      "arousal": 5
+    },
+    "G2": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 6,
+      "valence": 5,
+      "arousal": 1
+    },
+    "G3": {
+      "satisfied": 6,
+      "boring": 1,
+      "horrible": 9,
+      "calm": 2,
+      "funny": 3,
+      "valence": 3,
+      "arousal": 7
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 8,
+      "valence": 5,
+      "arousal": 1
+    }
+  },
+  "S10": {
+    "gender": 0,
+    "Age": 20,
+    "G1": {
+      "satisfied": 3,
+      "boring": 8,
+      "horrible": 1,
+      "calm": 5,
+      "funny": 4,
+      "valence": 5,
+      "arousal": 5
+    },
+    "G2": {
+      "satisfied": 3,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 2,
+      "valence": 3,
+      "arousal": 5
+    },
+    "G3": {
+      "satisfied": 5,
+      "boring": 1,
+      "horrible": 8,
+      "calm": 2,
+      "funny": 1,
+      "valence": 3,
+      "arousal": 7
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 5,
+      "funny": 10,
+      "valence": 9,
+      "arousal": 5
+    }
+  },
+  "S11": {
+    "gender": 0,
+    "Age": 26,
+    "G1": {
+      "satisfied": 5,
+      "boring": 7,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 4,
+      "valence": 5,
+      "arousal": 1
+    },
+    "G2": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 6,
+      "valence": 7,
+      "arousal": 3
+    },
+    "G3": {
+      "satisfied": 3,
+      "boring": 7,
+      "horrible": 8,
+      "calm": 2,
+      "funny": 3,
+      "valence": 3,
+      "arousal": 4
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 2,
+      "funny": 8,
+      "valence": 7,
+      "arousal": 7
+    }
+  },
+  "S12": {
+    "gender": 1,
+    "Age": 25,
+    "G1": {
+      "satisfied": 5,
+      "boring": 9,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 4,
+      "valence": 5,
+      "arousal": 1
+    },
+    "G2": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 5,
+      "funny": 68,
+      "valence": 7,
+      "arousal": 5
+    },
+    "G3": {
+      "satisfied": 4,
+      "boring": 1,
+      "horrible": 6,
+      "calm": 2,
+      "funny": 3,
+      "valence": 5,
+      "arousal": 5
+    },
+    "G4": {
+      "satisfied": 7,
+      "boring": 1,
+      "horrible": 2,
+      "calm": 5,
+      "funny": 6,
+      "valence": 5,
+      "arousal": 5
+    }
+  },
+  "S13": {
+    "gender": 0,
+    "Age": 20,
+    "G1": {
+      "satisfied": 8,
+      "boring": 4,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 7,
+      "valence": 7,
+      "arousal": 1
+    },
+    "G2": {
+      "satisfied": 3,
+      "boring": 6,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 3,
+      "valence": 3,
+      "arousal": 3
+    },
+    "G3": {
+      "satisfied": 4,
+      "boring": 1,
+      "horrible": 8,
+      "calm": 4,
+      "funny": 2,
+      "valence": 3,
+      "arousal": 4
+    },
+    "G4": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 2,
+      "calm": 7,
+      "funny": 9,
+      "valence": 9,
+      "arousal": 2
+    }
+  },
+  "S14": {
+    "gender": 0,
+    "Age": 25,
+    "G1": {
+      "satisfied": 2,
+      "boring": 8,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 2,
+      "valence": 3,
+      "arousal": 1
+    },
+    "G2": {
+      "satisfied": 6,
+      "boring": 3,
+      "horrible": 1,
+      "calm": 6,
+      "funny": 7,
+      "valence": 7,
+      "arousal": 5
+    },
+    "G3": {
+      "satisfied": 4,
+      "boring": 1,
+      "horrible": 8,
+      "calm": 2,
+      "funny": 4,
+      "valence": 4,
+      "arousal": 7
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 2,
+      "calm": 4,
+      "funny": 10,
+      "valence": 9,
+      "arousal": 5
+    }
+  },
+  "S15": {
+    "gender": 0,
+    "Age": 22,
+    "G1": {
+      "satisfied": 3,
+      "boring": 7,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 3,
+      "valence": 4,
+      "arousal": 3
+    },
+    "G2": {
+      "satisfied": 8,
+      "boring": 3,
+      "horrible": 1,
+      "calm": 9,
+      "funny": 7,
+      "valence": 6,
+      "arousal": 3
+    },
+    "G3": {
+      "satisfied": 5,
+      "boring": 1,
+      "horrible": 8,
+      "calm": 2,
+      "funny": 2,
+      "valence": 2,
+      "arousal": 7
+    },
+    "G4": {
+      "satisfied": 7,
+      "boring": 3,
+      "horrible": 1,
+      "calm": 1,
+      "funny": 8,
+      "valence": 7,
+      "arousal": 8
+    }
+  },
+  "S16": {
+    "gender": 0,
+    "Age": 20,
+    "G1": {
+      "satisfied": 1,
+      "boring": 8,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 2,
+      "valence": 3,
+      "arousal": 2
+    },
+    "G2": {
+      "satisfied": 5,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 6,
+      "valence": 8,
+      "arousal": 2
+    },
+    "G3": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 9,
+      "calm": 4,
+      "funny": 1,
+      "valence": 1,
+      "arousal": 6
+    },
+    "G4": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 2,
+      "calm": 2,
+      "funny": 7,
+      "valence": 6,
+      "arousal": 7
+    }
+  },
+  "S17": {
+    "gender": 1,
+    "Age": 26,
+    "G1": {
+      "satisfied": 3,
+      "boring": 7,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 3,
+      "valence": 4,
+      "arousal": 1
+    },
+    "G2": {
+      "satisfied": 9,
+      "boring": 3,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 7,
+      "valence": 7,
+      "arousal": 4
+    },
+    "G3": {
+      "satisfied": 4,
+      "boring": 1,
+      "horrible": 7,
+      "calm": 4,
+      "funny": 3,
+      "valence": 3,
+      "arousal": 6
+    },
+    "G4": {
+      "satisfied": 7,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 2,
+      "funny": 6,
+      "valence": 5,
+      "arousal": 7
+    }
+  },
+  "S18": {
+    "gender": 1,
+    "Age": 26,
+    "G1": {
+      "satisfied": 7,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 7,
+      "valence": 7,
+      "arousal": 2
+    },
+    "G2": {
+      "satisfied": 5,
+      "boring": 3,
+      "horrible": 1,
+      "calm": 6,
+      "funny": 5,
+      "valence": 5,
+      "arousal": 5
+    },
+    "G3": {
+      "satisfied": 7,
+      "boring": 2,
+      "horrible": 6,
+      "calm": 3,
+      "funny": 3,
+      "valence": 4,
+      "arousal": 6
+    },
+    "G4": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 2,
+      "funny": 7,
+      "valence": 8,
+      "arousal": 6
+    }
+  },
+  "S19": {
+    "gender": 1,
+    "Age": 23,
+    "G2": {
+      "satisfied": 2,
+      "boring": 7,
+      "horrible": 1,
+      "calm": 6,
+      "funny": 3,
+      "valence": 3,
+      "arousal": 4
+    },
+    "G3": {
+      "satisfied": 6,
+      "boring": 3,
+      "horrible": 6,
+      "calm": 3,
+      "funny": 4,
+      "valence": 4,
+      "arousal": 5
+    },
+    "G4": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 4,
+      "funny": 9,
+      "valence": 8,
+      "arousal": 4
+    }
+  },
+  "S20": {
+    "gender": 1,
+    "Age": 22,
+    "G1": {
+      "satisfied": 1,
+      "boring": 8,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 2,
+      "valence": 2,
+      "arousal": 3
+    },
+    "G2": {
+      "satisfied": 7,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 7,
+      "valence": 6,
+      "arousal": 3
+    },
+    "G3": {
+      "satisfied": 1,
+      "boring": 1,
+      "horrible": 10,
+      "calm": 2,
+      "funny": 1,
+      "valence": 2,
+      "arousal": 8
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 5,
+      "funny": 8,
+      "valence": 7,
+      "arousal": 5
+    }
+  },
+  "S21": {
+    "gender": 1,
+    "Age": 20,
+    "G1": {
+      "satisfied": 1,
+      "boring": 10,
+      "horrible": 1,
+      "calm": 10,
+      "funny": 1,
+      "valence": 1,
+      "arousal": 4
+    },
+    "G2": {
+      "satisfied": 8,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 6,
+      "funny": 7,
+      "valence": 7,
+      "arousal": 6
+    },
+    "G3": {
+      "satisfied": 1,
+      "boring": 2,
+      "horrible": 10,
+      "calm": 1,
+      "funny": 1,
+      "valence": 1,
+      "arousal": 9
+    },
+    "G4": {
+      "satisfied": 7,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 2,
+      "funny": 8,
+      "valence": 6,
+      "arousal": 8
+    }
+  },
+  "S22": {
+    "gender": 0,
+    "Age": 23,
+    "G1": {
+      "satisfied": 3,
+      "boring": 9,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 2,
+      "valence": 3,
+      "arousal": 4
+    },
+    "G2": {
+      "satisfied": 9,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 8,
+      "valence": 9,
+      "arousal": 4
+    },
+    "G3": {
+      "satisfied": 7,
+      "boring": 1,
+      "horrible": 8,
+      "calm": 3,
+      "funny": 3,
+      "valence": 3,
+      "arousal": 6
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 1,
+      "funny": 6,
+      "valence": 5,
+      "arousal": 9
+    }
+  },
+  "S23": {
+    "gender": 0,
+    "Age": 21,
+    "G1": {
+      "satisfied": 2,
+      "boring": 9,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 2,
+      "valence": 2,
+      "arousal": 3
+    },
+    "G2": {
+      "satisfied": 4,
+      "boring": 3,
+      "horrible": 1,
+      "calm": 9,
+      "funny": 6,
+      "valence": 4,
+      "arousal": 2
+    },
+    "G3": {
+      "satisfied": 2,
+      "boring": 1,
+      "horrible": 6,
+      "calm": 5,
+      "funny": 3,
+      "valence": 2,
+      "arousal": 4
+    },
+    "G4": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 9,
+      "valence": 8,
+      "arousal": 7
+    }
+  },
+  "S24": {
+    "gender": 0,
+    "Age": 23,
+    "G1": {
+      "satisfied": 3,
+      "boring": 7,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 3,
+      "valence": 4,
+      "arousal": 2
+    },
+    "G2": {
+      "satisfied": 6,
+      "boring": 5,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 6,
+      "valence": 6,
+      "arousal": 6
+    },
+    "G3": {
+      "satisfied": 8,
+      "boring": 3,
+      "horrible": 7,
+      "calm": 5,
+      "funny": 5,
+      "valence": 4,
+      "arousal": 5
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 6,
+      "funny": 8,
+      "valence": 7,
+      "arousal": 6
+    }
+  },
+  "S25": {
+    "gender": 0,
+    "Age": 27,
+    "G1": {
+      "satisfied": 2,
+      "boring": 9,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 3,
+      "valence": 4,
+      "arousal": 1
+    },
+    "G2": {
+      "satisfied": 5,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 6,
+      "valence": 5,
+      "arousal": 3
+    },
+    "G3": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 6,
+      "calm": 3,
+      "funny": 4,
+      "valence": 4,
+      "arousal": 6
+    },
+    "G4": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 3,
+      "funny": 9,
+      "valence": 9,
+      "arousal": 6
+    }
+  },
+  "S26": {
+    "gender": 0,
+    "Age": 23,
+    "G1": {
+      "satisfied": 5,
+      "boring": 8,
+      "horrible": 1,
+      "calm": 6,
+      "funny": 6,
+      "valence": 6,
+      "arousal": 4
+    },
+    "G2": {
+      "satisfied": 2,
+      "boring": 2,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 2,
+      "valence": 3,
+      "arousal": 3
+    },
+    "G3": {
+      "satisfied": 1,
+      "boring": 1,
+      "horrible": 10,
+      "calm": 1,
+      "funny": 1,
+      "valence": 2,
+      "arousal": 7
+    },
+    "G4": {
+      "satisfied": 7,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 5,
+      "funny": 7,
+      "valence": 4,
+      "arousal": 5
+    }
+  },
+  "S27": {
+    "gender": 0,
+    "Age": 22,
+    "G1": {
+      "satisfied": 4,
+      "boring": 6,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 2,
+      "valence": 2,
+      "arousal": 3
+    },
+    "G2": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 10,
+      "funny": 8,
+      "valence": 7,
+      "arousal": 1
+    },
+    "G3": {
+      "satisfied": 1,
+      "boring": 1,
+      "horrible": 10,
+      "calm": 1,
+      "funny": 1,
+      "valence": 1,
+      "arousal": 7
+    },
+    "G4": {
+      "satisfied": 5,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 5,
+      "valence": 5,
+      "arousal": 4
+    }
+  },
+  "S28": {
+    "gender": 0,
+    "Age": 24,
+    "G1": {
+      "satisfied": 2,
+      "boring": 7,
+      "horrible": 1,
+      "calm": 6,
+      "funny": 1,
+      "valence": 1,
+      "arousal": 4
+    },
+    "G2": {
+      "satisfied": 9,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 8,
+      "valence": 8,
+      "arousal": 2
+    },
+    "G3": {
+      "satisfied": 3,
+      "boring": 1,
+      "horrible": 7,
+      "calm": 6,
+      "funny": 1,
+      "valence": 1,
+      "arousal": 4
+    },
+    "G4": {
+      "satisfied": 8,
+      "boring": 1,
+      "horrible": 1,
+      "calm": 7,
+      "funny": 7,
+      "valence": 7,
+      "arousal": 3
+    }
+  }
+}
