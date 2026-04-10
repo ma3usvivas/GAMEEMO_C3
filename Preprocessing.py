@@ -91,6 +91,23 @@ def remove_artifact(epochs):
             clean_epochs.append(epoch)
     return clean_epochs
 
+# 6. Criação dos Nomes das Colunas
+def getColumnNames(data, files):
+    df = pd.read_csv(files['S01']['pre']['G1'])
+    df.dropna(axis=1, how='all', inplace=True)
+    channels = df.columns.tolist()
+    bands = ['delta', 'theta', 'alpha', 'beta', 'gamma']
+
+    features_names = []
+    labels_names = list(data['S01']['G1'].keys())
+
+    for ch in channels:
+        for band in bands:
+            features_names.append(f"{ch}_{band}")
+    
+    features_names = features_names + ['male','female','age']
+
+    return features_names,labels_names
 #Criação de Features
 
 # 1. Largura de Banda
@@ -103,7 +120,6 @@ def bandpower(signal, fmin, fmax):
 
 # 2. Extração de Largura de Banda
 def extract_features(epoch):
-    fs = get_fs()
     features = []
 
     for col in epoch.columns:
@@ -131,7 +147,8 @@ def feature_creation(clean_epochs):
     return X
 
 # 4. Processa um dataframe com as features
-def process_dataframe(df):
+def process_dataframe(df, subject, game):
+    
     df = CAR(df)
     df = base_line(df)
     df = normalize(df)
@@ -140,11 +157,13 @@ def process_dataframe(df):
     clean_epochs = remove_artifact(epochs)
     
     X = []
-    for epoch in tqdm(clean_epochs, leave=False, desc="Epochs"):
+    tuples = []
+
+    for i, epoch in enumerate(clean_epochs):
         feat = extract_features(epoch)
+        tuples.append((subject, game, i+1))            
         X.append(feat)
-    
-    return X
+    return tuples, X
 
 # 5. Extrai as informações do txt
 
@@ -184,11 +203,15 @@ def build_dataset(files):
     X = []
     y = []
     
+    tuples = []
+    
+    colsX, colsy = getColumnNames(data, files)
+    
     total_files = sum(
         len(files[s]['pre'])
         for s in files
     )
-    
+
     with tqdm(total=total_files, desc="Total processing") as pbar:
         for subject in SUBJECTS:
 
@@ -210,8 +233,8 @@ def build_dataset(files):
                 df = pd.read_csv(files[subject]['pre'][game])
                 df.dropna(axis=1, how='all', inplace=True)
                 
-                features_epochs = process_dataframe(df)
-                
+                idx_tuple, features_epochs = process_dataframe(df)
+                tuples.append(idx_tuple)
                 # 🔹 labels do jogo
                 labels = extract_labels(data, subject, game)
                 
@@ -226,10 +249,20 @@ def build_dataset(files):
                 
                 pbar.update(1)
     
-    return np.array(X), np.array(y)
+    index = pd.MultiIndex.from_tuples(
+        tuples,
+        names=["subject", "game", "epoch"]
+    )
+
+    df_features = pd.DataFrame(X, columns=colsX, index=index)
+    df_labels = pd.DataFrame(y, columns=colsy, index=index)
+    
+    return df_features, df_labels
 
 if __name__ == "__main__":
     files = read_files()
-
-    X, y = build_dataset(files)
-    np.savez("features_labels.npz",X=X,y=y)
+    
+    df_features, df_labels = build_dataset(files)
+    
+    df_features.to_pickle('features_SML.pkl')
+    df_labels.to_pickle('labels_SML.pkl')
