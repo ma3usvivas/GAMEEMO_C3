@@ -722,6 +722,15 @@
   "S19": {
     "gender": 1,
     "Age": 23,
+    "G1": {
+      "satisfied": 3,
+      "boring": 6,
+      "horrible": 1,
+      "calm": 8,
+      "funny": 4,
+      "valence": 5,
+      "arousal": 2
+    },
     "G2": {
       "satisfied": 2,
       "boring": 7,
