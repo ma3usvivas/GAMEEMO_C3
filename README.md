@@ -45,4 +45,4 @@ Em InteracePlatform.py, rodar uvicorn API.InferencePlatform:app --reload
 
 Por fim, em platformstreamlit.py, rodar streamlit run platformstreamlit.py
 
-Para testar, envie a pasta compactada (zipada) para o modelo
+Para testar, envie a pasta compactada (zipada) do sujeito para o modelo
