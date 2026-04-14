@@ -2,6 +2,11 @@
 ## Desafio de ML Engineer para utilizar o dataset GAMEEMO e criar um modelo preditivo para analisar os sinais EEG relacionados a dados neurais.
 ### Nesse desafio, foi criado um modelo com os sinais de EEG para analisar e prever emoções. Para isso, foram criados 4 programas e uma interface StreamLit com FastAPI para prever os modelos.
 
+## Dependências Necessárias (Acrescentar Versão):
+
+sklearn, pandas, numpy, pickle, pytorch,
+
+uvicorn, fastapi, streamlit
 
 ## Funcionamento:
 ### 1. Rodar o pre processamento
@@ -37,3 +42,7 @@ Por fim, o modelo novo é criado com
 Assim, utilizando a pasta Final para carregar os modelos criados, faça no terminal:
 
 Em InteracePlatform.py, rodar uvicorn API.InferencePlatform:app --reload
+
+Por fim, em platformstreamlit.py, rodar streamlit run platformstreamlit.py
+
+Para testar, envie a pasta compactada (zipada) para o modelo
